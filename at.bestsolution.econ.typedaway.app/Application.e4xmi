@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ymMwQdyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.application" bindingContexts="_ymMwQNyEEeW4NPbdoGwwmQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_aqzRoNyFEeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.trimmedwindow.0" width="1200" height="800">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_CQTbMNyREeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.partsashcontainer.0" containerData="" horizontal="true">
+      <children xsi:type="basic:Part" xmi:id="_EfEY0NyREeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.part.0" containerData="30" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.ProjectExplorer"/>
+      <children xsi:type="basic:PartStack" xmi:id="_BffpUNyREeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.partstack.0" containerData="70">
+        <tags>editorContainer</tags>
+      </children>
+    </children>
+    <variables>activeInput</variables>
+    <mainMenu xmi:id="_Za4RwOEuEeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_anFmMOEuEeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.menu.file" label="File">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_cBtxIOEuEeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.directmenuitem.setprojectdirectory" label="Set Project Directory" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.SelectProjectDirectory"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_7p24AOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_8vhfkOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handledmenuitem.save" label="Save" command="__lPvgOE4EeWE6sjYlonxkA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9_w_cOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handledmenuitem.saveall" label="Save All" command="_ArpW4OE5EeWE6sjYlonxkA"/>
+      </children>
+    </mainMenu>
+  </children>
+  <variables>at.bestsolution.typescript.service.api.TSServer</variables>
+  <handlers xmi:id="_B0WrYOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handler.0" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.SaveHandler" command="__lPvgOE4EeWE6sjYlonxkA"/>
+  <handlers xmi:id="_Fl5DUOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handler.1" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.SaveAllHandler" command="_ArpW4OE5EeWE6sjYlonxkA"/>
+  <bindingTables xmi:id="_U1kSgOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.bindingtable.0" bindingContext="_ymMwQNyEEeW4NPbdoGwwmQ">
+    <bindings xmi:id="_VKFxAOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.keybinding.0" keySequence="M1+S" command="__lPvgOE4EeWE6sjYlonxkA"/>
+    <bindings xmi:id="_XYqhYOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.keybinding.1" keySequence="M1+SHIFT+S" command="_ArpW4OE5EeWE6sjYlonxkA"/>
+  </bindingTables>
+  <rootContext xmi:id="_ymMwQNyEEeW4NPbdoGwwmQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_ymMwQtyEEeW4NPbdoGwwmQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_ymMwQ9yEEeW4NPbdoGwwmQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="__lPvgOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.command.save" commandName="Save"/>
+  <commands xmi:id="_ArpW4OE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.command.saveall" commandName="Save All"/>
+  <addons xmi:id="_ymMwRNyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_ymMwRdyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_ymMwRtyEEeW4NPbdoGwwmQ" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_ymMwR9yEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_ymMwSNyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_ymMwSdyEEeW4NPbdoGwwmQ" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
+  <addons xmi:id="_ymMwStyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_7J_34N-mEeW-Oceh5moxwA" elementId="at.bestsolution.econ.typedaway.app.addon.0" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.TypescriptManager"/>
+  <addons xmi:id="_TLRbQOE2EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.addon.1" contributionURI="bundleclass://org.eclipse.fx.code.editor.e4/org.eclipse.fx.code.editor.e4.addons.DirtyStateTrackingAddon"/>
+</application:Application>

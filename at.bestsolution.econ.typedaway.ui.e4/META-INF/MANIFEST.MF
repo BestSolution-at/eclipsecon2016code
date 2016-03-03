@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: E4
+Bundle-SymbolicName: at.bestsolution.econ.typedaway.ui.e4
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.fx.ui.services.theme;version="2.2.0",
+ org.osgi.service.component.annotations;version="1.2.0"
+Service-Component: OSGI-INF/at.bestsolution.econ.typedaway.ui.e4.TypescriptStylesheet.xml
+Bundle-ActivationPolicy: lazy
