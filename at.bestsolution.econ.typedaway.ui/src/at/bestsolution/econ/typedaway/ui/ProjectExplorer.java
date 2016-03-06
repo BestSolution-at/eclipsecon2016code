@@ -50,7 +50,7 @@ public class ProjectExplorer {
 	}
 
 	@Inject
-	public void setRootPath( @Preference(key="rootPath") String path ) {
+	public void setRootPath( @Preference(nodePath="at.bestsolution.econ.typedaway.core", key="rootPath") String path ) {
 		if( path != null ) {
 			RootDirItem item = ResourceItem.createObservedPath(Paths.get(path));
 			item.getChildren().addListener( this::handleDirContentChanged );

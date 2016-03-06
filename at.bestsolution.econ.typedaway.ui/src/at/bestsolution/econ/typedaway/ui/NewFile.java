@@ -30,7 +30,7 @@ public class NewFile {
 		private TextField textField;
 
 		@Inject
-		public NewFileDialog(@Preference(key="rootPath") String path) {
+		public NewFileDialog(@Preference(nodePath="at.bestsolution.econ.typedaway.core", key="rootPath") String path) {
 			super("New Tile", "New File", "Enter the name of the new typescript file");
 			this.path = path;
 			setClientArea(createClientArea());

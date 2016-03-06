@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 public class SelectProjectDirectory {
 
 	@Execute
-	public void select(Stage stage, @Preference(key="rootPath") Property<String> rootPath) {
+	public void select(Stage stage, @Preference(nodePath="at.bestsolution.econ.typedaway.core", key="rootPath") Property<String> rootPath) {
 		DirectoryChooser chooser = new DirectoryChooser();
 		File f = chooser.showDialog(stage);
 		if( f != null ) {

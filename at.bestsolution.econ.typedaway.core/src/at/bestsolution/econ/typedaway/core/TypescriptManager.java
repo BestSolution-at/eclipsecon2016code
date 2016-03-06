@@ -1,4 +1,4 @@
-package at.bestsolution.econ.typedaway.ui;
+package at.bestsolution.econ.typedaway.core;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;
@@ -98,7 +98,7 @@ public class TypescriptManager {
 	}
 
 	@Inject
-	public void setRootPath(@Preference(key="rootPath") String rootPath) {
+	public void setRootPath(@Preference(nodePath="at.bestsolution.econ.typedaway.core", key="rootPath") String rootPath) {
 		this.rootPath = rootPath;
 		if( server != null ) {
 			LanguageService service = server.getService(LanguageService.class);

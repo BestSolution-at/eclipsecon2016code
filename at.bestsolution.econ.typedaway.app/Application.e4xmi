@@ -54,6 +54,6 @@
   <addons xmi:id="_ymMwSNyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
   <addons xmi:id="_ymMwSdyEEeW4NPbdoGwwmQ" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
   <addons xmi:id="_ymMwStyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
-  <addons xmi:id="_7J_34N-mEeW-Oceh5moxwA" elementId="at.bestsolution.econ.typedaway.app.addon.0" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.TypescriptManager"/>
+  <addons xmi:id="_7J_34N-mEeW-Oceh5moxwA" elementId="at.bestsolution.econ.typedaway.app.addon.0" contributionURI="bundleclass://at.bestsolution.econ.typedaway.core/at.bestsolution.econ.typedaway.core.TypescriptManager"/>
   <addons xmi:id="_TLRbQOE2EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.addon.1" contributionURI="bundleclass://org.eclipse.fx.code.editor.e4/org.eclipse.fx.code.editor.e4.addons.DirtyStateTrackingAddon"/>
 </application:Application>
