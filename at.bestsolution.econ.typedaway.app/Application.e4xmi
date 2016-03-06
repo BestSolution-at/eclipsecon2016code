@@ -25,6 +25,7 @@
           <parameters xmi:id="_-RDYYOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.parameter.1" name="themeId" value="theme.dark"/>
         </children>
       </children>
+      <children xsi:type="menu:Menu" xmi:id="_j8gpYOPfEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.menu.editor" label="Editor"/>
     </mainMenu>
   </children>
   <variables>at.bestsolution.typescript.service.api.TSServer</variables>
@@ -32,6 +33,7 @@
   <handlers xmi:id="_Fl5DUOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handler.1" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.SaveAllHandler" command="_ArpW4OE5EeWE6sjYlonxkA"/>
   <handlers xmi:id="_w_7n8OPVEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handler.2" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.NewFile" command="_v9w1wOPUEeWv-rDn3LmQxA"/>
   <handlers xmi:id="_k55i4OPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handler.3" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.SwitchThemeHandler" command="_jMHLYOPYEeWv-rDn3LmQxA"/>
+  <handlers xmi:id="_xqTPEOPfEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handler.4" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.ToggleFeatureHandler" command="_dNOt8OPfEeWv-rDn3LmQxA"/>
   <bindingTables xmi:id="_U1kSgOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.bindingtable.0" bindingContext="_ymMwQNyEEeW4NPbdoGwwmQ">
     <bindings xmi:id="_VKFxAOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.keybinding.0" keySequence="M1+S" command="__lPvgOE4EeWE6sjYlonxkA"/>
     <bindings xmi:id="_XYqhYOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.keybinding.1" keySequence="M1+SHIFT+S" command="_ArpW4OE5EeWE6sjYlonxkA"/>
@@ -47,6 +49,9 @@
   <commands xmi:id="_jMHLYOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.command.switchtheme" commandName="Switch Theme">
     <parameters xmi:id="_xPKPYOPYEeWv-rDn3LmQxA" elementId="themeId" name="Theme Id" optional="false"/>
   </commands>
+  <commands xmi:id="_dNOt8OPfEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.command.toggleeditorfeature" commandName="Toggle Editor Feature">
+    <parameters xmi:id="_-N7uwOPfEeWv-rDn3LmQxA" elementId="feature" name="Feature" optional="false"/>
+  </commands>
   <addons xmi:id="_ymMwRNyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_ymMwRdyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_ymMwRtyEEeW4NPbdoGwwmQ" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
@@ -56,4 +61,5 @@
   <addons xmi:id="_ymMwStyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_7J_34N-mEeW-Oceh5moxwA" elementId="at.bestsolution.econ.typedaway.app.addon.0" contributionURI="bundleclass://at.bestsolution.econ.typedaway.core/at.bestsolution.econ.typedaway.core.TypescriptManager"/>
   <addons xmi:id="_TLRbQOE2EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.addon.1" contributionURI="bundleclass://org.eclipse.fx.code.editor.e4/org.eclipse.fx.code.editor.e4.addons.DirtyStateTrackingAddon"/>
+  <addons xmi:id="_oMepwOPfEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.addon.2" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.addons.EditorFeatureAddon"/>
 </application:Application>

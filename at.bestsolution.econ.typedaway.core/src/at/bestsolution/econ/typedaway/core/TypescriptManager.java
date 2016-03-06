@@ -47,7 +47,7 @@ public class TypescriptManager {
 		this.eventBus.subscribe(Constants.TOPIC_SOURCE_FILE_INPUT_SAVED, EventBus.data(this::handleSavedChanged));
 	}
 
-	private static String filename(URIProvider uriProvider) {
+	public static String filename(URIProvider uriProvider) {
 		return uriProvider.getURI().substring("file:".length());
 	}
 

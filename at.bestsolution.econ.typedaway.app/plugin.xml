@@ -2,7 +2,7 @@
 <?eclipse version="3.0"?>
 <plugin>
 <extension id="product" point="org.eclipse.core.runtime.products">
-	<product name="TypedAway" application="org.eclipse.fx.ui.workbench.fx.application" >
+	<product name="%product.name" application="org.eclipse.fx.ui.workbench.fx.application" >
 		<property name="appName" value="TypedAway" />
 		
 		<property name="applicationXMI" value="at.bestsolution.econ.typedaway.app/Application.e4xmi" />
