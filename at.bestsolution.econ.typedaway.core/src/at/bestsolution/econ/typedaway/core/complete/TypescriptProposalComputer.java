@@ -1,4 +1,4 @@
-package at.bestsolution.econ.typedaway.ui.complete;
+package at.bestsolution.econ.typedaway.core.complete;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -21,12 +21,10 @@ import at.bestsolution.typescript.service.api.services.LanguageService;
 
 @SuppressWarnings("restriction")
 public class TypescriptProposalComputer implements ProposalComputer {
-	private TSServer server;
 	private LanguageService languageService;
 
 	@Inject
 	public TypescriptProposalComputer(TSServer server) {
-		this.server = server;
 		this.languageService = server.getService(LanguageService.class);
 	}
 

@@ -1,4 +1,4 @@
-package at.bestsolution.econ.typedaway.ui.complete;
+package at.bestsolution.econ.typedaway.core.complete;
 
 import org.eclipse.fx.code.editor.Input;
 import org.eclipse.fx.code.editor.services.ProposalComputer;
