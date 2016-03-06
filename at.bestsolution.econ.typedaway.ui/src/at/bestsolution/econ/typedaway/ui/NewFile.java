@@ -8,8 +8,6 @@ import javax.inject.Inject;
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.fx.core.preferences.Preference;
 import org.eclipse.fx.ui.controls.dialog.TitleAreaDialog;
-import org.eclipse.fx.ui.services.dialog.LightWeightDialogService;
-import org.eclipse.fx.ui.services.dialog.LightWeightDialogService.ModalityScope;
 
 import javafx.geometry.Pos;
 import javafx.scene.Node;
@@ -21,8 +19,8 @@ import javafx.scene.layout.Priority;
 @SuppressWarnings("restriction")
 public class NewFile {
 	@Execute
-	public void createNewFile(LightWeightDialogService service) {
-		service.openDialog(NewFileDialog.class, ModalityScope.WINDOW);
+	public void createNewFile() {
+		//TODO 1 Open the new file dialog
 	}
 
 	static class NewFileDialog extends TitleAreaDialog {

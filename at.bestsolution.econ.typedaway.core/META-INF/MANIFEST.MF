@@ -4,9 +4,6 @@ Bundle-Name: Core
 Bundle-SymbolicName: at.bestsolution.econ.typedaway.core
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Service-Component: OSGI-INF/at.bestsolution.econ.typedaway.core.complete.TypescriptProposalComputerProvider.xml,
- OSGI-INF/at.bestsolution.econ.typedaway.core.syntax.TypescriptConfigurationProvider.xml,
- OSGI-INF/at.bestsolution.econ.typedaway.core.marker.TypescriptAnnotationModelTypeProvider.xml
 Bundle-ActivationPolicy: lazy
 Import-Package: at.bestsolution.typescript.service.api,
  at.bestsolution.typescript.service.api.model,

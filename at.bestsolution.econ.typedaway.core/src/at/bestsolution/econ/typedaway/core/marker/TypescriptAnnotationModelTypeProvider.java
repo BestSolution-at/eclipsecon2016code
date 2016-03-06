@@ -4,11 +4,9 @@ import org.eclipse.fx.code.editor.Input;
 import org.eclipse.fx.code.editor.SourceFileInput;
 import org.eclipse.fx.code.editor.services.AnnotationModelTypeProvider;
 import org.eclipse.jface.text.source.IAnnotationModel;
-import org.osgi.service.component.annotations.Component;
-
 
 @SuppressWarnings("restriction")
-@Component
+//TODO 4a: Register this provide as an OSGi-Service
 public class TypescriptAnnotationModelTypeProvider implements AnnotationModelTypeProvider {
 
 	@Override
