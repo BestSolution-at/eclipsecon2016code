@@ -1,14 +1,11 @@
-package at.bestsolution.econ.typedaway.ui.syntax;
+package at.bestsolution.econ.typedaway.core.syntax;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.io.StringReader;
-import java.net.URL;
 
 import org.eclipse.fx.code.editor.Input;
-import org.eclipse.fx.code.editor.SourceFileInput;
 import org.eclipse.fx.code.editor.configuration.EditorGModel;
 import org.eclipse.fx.code.editor.configuration.LanguageDef;
 import org.eclipse.fx.code.editor.configuration.text.ConfigurationModelProvider;
