@@ -1,4 +1,4 @@
-package at.bestsolution.econ.typedaway.ui
+package at.bestsolution.econ.typedaway.ui.syntax
 
 ts {
 	partitioning {

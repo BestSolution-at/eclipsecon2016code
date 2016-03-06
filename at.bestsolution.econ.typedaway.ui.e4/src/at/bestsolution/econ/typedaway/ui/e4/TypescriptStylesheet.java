@@ -18,7 +18,7 @@ public class TypescriptStylesheet implements Stylesheet {
 	@Override
 	public URL getURL(Theme t) {
 		try {
-			return new URL("platform:/plugin/at.bestsolution.econ.typedaway.ui/at/bestsolution/econ/typedaway/ui/ts.css");
+			return new URL("platform:/plugin/at.bestsolution.econ.typedaway.ui/at/bestsolution/econ/typedaway/ui/syntax/ts.css");
 		} catch (MalformedURLException e) {
 			throw new RuntimeException(e);
 		}

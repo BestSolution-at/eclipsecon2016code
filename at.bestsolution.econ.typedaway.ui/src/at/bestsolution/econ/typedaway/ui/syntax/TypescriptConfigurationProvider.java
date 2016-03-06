@@ -1,4 +1,4 @@
-package at.bestsolution.econ.typedaway.ui;
+package at.bestsolution.econ.typedaway.ui.syntax;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -64,6 +64,7 @@ public class TypescriptManager {
 	}
 
 	private void handleSavedChanged(SourceFileInput input) {
+		System.err.println(languageService.getSemanticDiagnostics(filename(input)));
 		languageService.updateContent(filename(input), input.getData());
 	}
 

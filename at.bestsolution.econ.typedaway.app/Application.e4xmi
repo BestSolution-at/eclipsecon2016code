@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ymMwQdyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.application" bindingContexts="_ymMwQNyEEeW4NPbdoGwwmQ">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_aqzRoNyFEeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.trimmedwindow.0" width="1200" height="800">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_aqzRoNyFEeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.trimmedwindow.typedaway" label="Typed Away" x="50" y="50" width="1200" height="800">
+    <persistedState key="efx.window.root.fxml" value="platform:/plugin/at.bestsolution.econ.typedaway.app/at/bestsolution/econ/typedaway/app/ApplicationWindow.fxml"/>
     <children xsi:type="basic:PartSashContainer" xmi:id="_CQTbMNyREeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.partsashcontainer.0" containerData="" horizontal="true">
       <children xsi:type="basic:Part" xmi:id="_EfEY0NyREeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.part.0" containerData="30" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.ProjectExplorer"/>
       <children xsi:type="basic:PartStack" xmi:id="_BffpUNyREeW4NPbdoGwwmQ" elementId="at.bestsolution.econ.typedaway.app.partstack.0" containerData="70">

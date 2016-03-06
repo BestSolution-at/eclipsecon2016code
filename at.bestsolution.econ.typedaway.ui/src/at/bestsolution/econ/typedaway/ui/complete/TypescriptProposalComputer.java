@@ -1,4 +1,4 @@
-package at.bestsolution.econ.typedaway.ui;
+package at.bestsolution.econ.typedaway.ui.complete;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
