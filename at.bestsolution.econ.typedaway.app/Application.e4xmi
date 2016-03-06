@@ -11,18 +11,30 @@
     <mainMenu xmi:id="_Za4RwOEuEeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.menu.0">
       <children xsi:type="menu:Menu" xmi:id="_anFmMOEuEeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.menu.file" label="File">
         <children xsi:type="menu:DirectMenuItem" xmi:id="_cBtxIOEuEeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.directmenuitem.setprojectdirectory" label="Set Project Directory" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.SelectProjectDirectory"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_sJIGgOPUEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handledmenuitem.newfile" label="New File" command="_v9w1wOPUEeWv-rDn3LmQxA"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_7p24AOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.menuseparator.0"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_8vhfkOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handledmenuitem.save" label="Save" command="__lPvgOE4EeWE6sjYlonxkA"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_9_w_cOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handledmenuitem.saveall" label="Save All" command="_ArpW4OE5EeWE6sjYlonxkA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_0LqcwOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.menu.theme" label="Theme">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_1w6jUOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handledmenuitem.eclipsetheme" label="Eclipse Theme" selected="true" type="Radio" command="_jMHLYOPYEeWv-rDn3LmQxA">
+          <parameters xmi:id="_5OuuAOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.parameter.0" name="themeId" value="theme.default"/>
+        </children>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_3maFUOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handledmenuitem.intellijdrakula" label="IntelliJ Drakula" type="Radio" command="_jMHLYOPYEeWv-rDn3LmQxA">
+          <parameters xmi:id="_-RDYYOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.parameter.1" name="themeId" value="theme.dark"/>
+        </children>
       </children>
     </mainMenu>
   </children>
   <variables>at.bestsolution.typescript.service.api.TSServer</variables>
   <handlers xmi:id="_B0WrYOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handler.0" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.SaveHandler" command="__lPvgOE4EeWE6sjYlonxkA"/>
   <handlers xmi:id="_Fl5DUOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.handler.1" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.SaveAllHandler" command="_ArpW4OE5EeWE6sjYlonxkA"/>
+  <handlers xmi:id="_w_7n8OPVEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handler.2" contributionURI="bundleclass://at.bestsolution.econ.typedaway.ui/at.bestsolution.econ.typedaway.ui.NewFile" command="_v9w1wOPUEeWv-rDn3LmQxA"/>
+  <handlers xmi:id="_k55i4OPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.handler.3" contributionURI="bundleclass://at.bestsolution.econ.typedaway.app/at.bestsolution.econ.typedaway.app.handlers.SwitchThemeHandler" command="_jMHLYOPYEeWv-rDn3LmQxA"/>
   <bindingTables xmi:id="_U1kSgOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.bindingtable.0" bindingContext="_ymMwQNyEEeW4NPbdoGwwmQ">
     <bindings xmi:id="_VKFxAOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.keybinding.0" keySequence="M1+S" command="__lPvgOE4EeWE6sjYlonxkA"/>
     <bindings xmi:id="_XYqhYOE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.keybinding.1" keySequence="M1+SHIFT+S" command="_ArpW4OE5EeWE6sjYlonxkA"/>
+    <bindings xmi:id="_18208OPVEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.keybinding.2" keySequence="M1+N" command="_v9w1wOPUEeWv-rDn3LmQxA"/>
   </bindingTables>
   <rootContext xmi:id="_ymMwQNyEEeW4NPbdoGwwmQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_ymMwQtyEEeW4NPbdoGwwmQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
@@ -30,6 +42,10 @@
   </rootContext>
   <commands xmi:id="__lPvgOE4EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.command.save" commandName="Save"/>
   <commands xmi:id="_ArpW4OE5EeWE6sjYlonxkA" elementId="at.bestsolution.econ.typedaway.app.command.saveall" commandName="Save All"/>
+  <commands xmi:id="_v9w1wOPUEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.command.newfile" commandName="New File"/>
+  <commands xmi:id="_jMHLYOPYEeWv-rDn3LmQxA" elementId="at.bestsolution.econ.typedaway.app.command.switchtheme" commandName="Switch Theme">
+    <parameters xmi:id="_xPKPYOPYEeWv-rDn3LmQxA" elementId="themeId" name="Theme Id" optional="false"/>
+  </commands>
   <addons xmi:id="_ymMwRNyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_ymMwRdyEEeW4NPbdoGwwmQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_ymMwRtyEEeW4NPbdoGwwmQ" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>

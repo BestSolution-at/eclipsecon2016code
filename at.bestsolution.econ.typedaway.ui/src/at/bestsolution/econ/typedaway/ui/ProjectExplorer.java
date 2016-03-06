@@ -28,13 +28,11 @@ public class ProjectExplorer {
 	private final TSServer server;
 	private ResourceTreeView viewer;
 	private ObservableList<DirItem> rootList;
-	private EditorOpener editorOpener;
 
 	@Inject
-	public ProjectExplorer(TSServer server, EditorOpener editorOpener) {
+	public ProjectExplorer(TSServer server) {
 		this.server = server;
 		this.rootList = FXCollections.observableArrayList();
-		this.editorOpener = editorOpener;
 	}
 
 	@PostConstruct
@@ -78,6 +76,7 @@ public class ProjectExplorer {
 				.map( ResourceItem::getNativeResourceObject )
 				.map( r -> (Path)r )
 				.map( Path::toAbsolutePath )
-				.map( Object::toString );
+				.map( Object::toString )
+				.filter( s -> s.endsWith(".ts"));
 	}
 }
