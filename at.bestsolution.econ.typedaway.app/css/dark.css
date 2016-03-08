@@ -18,6 +18,11 @@
 
 }
 
+.styled-text-area {
+	-fx-fixed-line-height: 24;
+	-fx-font-size: 20;
+}
+
 .source-viewer.styled-text-area .selection-marker {
 	-fx-background-color: #2b5696;
 }
