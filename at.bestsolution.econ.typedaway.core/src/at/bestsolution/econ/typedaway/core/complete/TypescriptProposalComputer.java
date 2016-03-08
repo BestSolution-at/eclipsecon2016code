@@ -46,7 +46,6 @@ public class TypescriptProposalComputer implements ProposalComputer {
 				location = location < 0 ? context.location : (location + 1);
 				prefix = context.document.get(location, context.location - location);
 			} catch (BadLocationException e1) {
-				//TODO Log error
 				location = context.location;
 				prefix = "";
 			}
@@ -60,7 +59,6 @@ public class TypescriptProposalComputer implements ProposalComputer {
 				location = location < 0 ? context.location : location;
 				prefix = context.document.get(location, context.location - location);
 			} catch (BadLocationException e1) {
-				//TODO Log error
 				location = context.location;
 				prefix = "";
 			}

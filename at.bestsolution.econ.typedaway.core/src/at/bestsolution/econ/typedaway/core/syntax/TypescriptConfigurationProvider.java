@@ -12,7 +12,7 @@ import org.eclipse.fx.code.editor.configuration.text.ConfigurationModelProvider;
 import org.eclipse.fx.code.editor.services.URIProvider;
 
 @SuppressWarnings("restriction")
-//TODO 2a: Register this provide as an OSGi-Service
+//TODO 1.2
 public class TypescriptConfigurationProvider implements ConfigurationModelProvider {
 
 	@Override

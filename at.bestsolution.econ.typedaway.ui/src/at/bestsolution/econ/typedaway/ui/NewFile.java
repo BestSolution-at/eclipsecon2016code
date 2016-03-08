@@ -20,7 +20,6 @@ import javafx.scene.layout.Priority;
 public class NewFile {
 	@Execute
 	public void createNewFile() {
-		//TODO 1 Open the new file dialog
 	}
 
 	static class NewFileDialog extends TitleAreaDialog {
@@ -51,7 +50,6 @@ public class NewFile {
 				f.createNewFile();
 				super.handleOk();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 

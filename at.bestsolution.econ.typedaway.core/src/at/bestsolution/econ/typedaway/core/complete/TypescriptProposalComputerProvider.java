@@ -6,7 +6,6 @@ import org.eclipse.fx.code.editor.services.ProposalComputerTypeProvider;
 import org.eclipse.fx.code.editor.services.URIProvider;
 
 @SuppressWarnings("restriction")
-//TODO 3: Register this provide as an OSGi-Service
 public class TypescriptProposalComputerProvider implements ProposalComputerTypeProvider {
 
 	@Override
