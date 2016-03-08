@@ -6,6 +6,7 @@ import org.eclipse.fx.code.editor.services.AnnotationModelTypeProvider;
 import org.eclipse.jface.text.source.IAnnotationModel;
 
 @SuppressWarnings("restriction")
+//TODO 3.a
 public class TypescriptAnnotationModelTypeProvider implements AnnotationModelTypeProvider {
 
 	@Override

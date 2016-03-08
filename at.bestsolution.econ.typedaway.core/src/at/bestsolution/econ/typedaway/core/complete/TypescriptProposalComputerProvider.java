@@ -6,6 +6,7 @@ import org.eclipse.fx.code.editor.services.ProposalComputerTypeProvider;
 import org.eclipse.fx.code.editor.services.URIProvider;
 
 @SuppressWarnings("restriction")
+//TODO 2 contribute to the registry
 public class TypescriptProposalComputerProvider implements ProposalComputerTypeProvider {
 
 	@Override

@@ -6,6 +6,7 @@ import org.eclipse.fx.code.editor.fx.services.AnnotationPresenterTypeProvider;
 import org.eclipse.fx.text.ui.source.AnnotationPresenter;
 
 @SuppressWarnings("restriction")
+//TODO 3.b
 public class TypescriptAnnotationPresenterTypeProvider implements AnnotationPresenterTypeProvider {
 
 	@Override
